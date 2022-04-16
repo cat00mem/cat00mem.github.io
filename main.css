@@ -200,11 +200,15 @@ cursor: pointer;
     color: rgb(255, 255, 255);
     margin: 0;
     float: left;
+    top: 0;
     width: 250px;
+    height: 100%;
     font-size: 25px;
     font-family: 'Inter';
 font-style: normal;
 transition: 0.3s;
+background-image: url(logo2.png);
+background-size: contain;
 }
 
 .butt:hover {

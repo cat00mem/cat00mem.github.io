@@ -227,3 +227,14 @@
     
 }
 
+@media only screen and (max-width: 420px) {
+
+    #buttLogo {
+        background-image: url(logo3.png);
+        width: 100px;
+        top: 0;
+        background-repeat: no-repeat; 
+    }
+
+}
+
