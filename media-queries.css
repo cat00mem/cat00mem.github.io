@@ -1,0 +1,229 @@
+/*
+@media only screen and (max-width: 1144px) {
+    .text {
+        123...
+    }
+}
+*/
+@media only screen and (max-width: 1570px) {
+    #CreatorBackground {
+        opacity: 0;
+        z-index: -6;
+    }
+
+
+    .butt2 {
+        display: block;
+    }
+    .butt {
+        display: none;
+    }
+    
+    #Creator {
+        position: absolute;
+        float: right;
+        width: 150px;
+        height: 150px;
+        right: 10px;
+        top: 10px;
+        opacity: 0;
+        z-index: -10;
+    }
+
+    #righty {
+        display: none;
+    }
+
+
+
+    
+    .tyu {
+        margin-right: 0px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1083px) {
+    #cube {
+        display: none;
+    }
+    
+    #cube2 {
+        display: none;
+    }
+
+    #infoText {
+        position: absolute;
+    width: 300px;
+    height: 117px;
+    left: 380px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #000000;
+    
+    }
+
+    #infoText2 {
+        display: none;
+    
+    }
+
+    #logoBackground {
+        z-index: -6;
+        transform: rotate(0deg);
+        margin-left: -110px;
+        margin-top: -70px;
+    }
+    
+    #logo {
+        position: absolute;
+        margin-left: 0;
+        margin-left: -115px;
+        margin-top: -70px;
+    }
+
+    #vector {
+    margin-left: -1000px;
+    }
+
+    .textLogo {
+        position: absolute;
+    width: 188px;
+    height: 58px;
+    left: 380px;
+    top: 50px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #2F97F7;
+    }
+
+    #personal-pics{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 40px;
+        float: left;
+        width: 800px;
+        background-color: rgb(179, 179, 179);
+        height: 500px;        
+        overflow: hidden;
+        overflow-x: scroll;    
+        white-space:nowrap;
+        box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.6);
+        border: solid 0.3px #000000;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    #cube {
+        display: none;
+    }
+    
+    #cube2 {
+        display: none;
+    }
+
+    #menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    #infoText {
+        position: absolute;
+    width: 300px;
+    height: 117px;
+    left: 12px;
+    top: 460px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #000000;
+    
+    }
+
+    #infoText2 {
+        display: none;
+    
+    }
+
+
+    #cent {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        height: auto;
+        height: 315px;
+        top: 177px;
+        
+    }
+    #logo {
+        text-align: center;
+    }
+
+    #vector {
+    margin-left: -1000px;
+    }
+
+    .textLogo {
+        position: absolute;
+    width: 188px;
+    height: 58px;
+    left: 12px;
+    top: 380px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    
+    color: #2F97F7;
+    }
+
+    #personal-pics{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 40px;
+        float: left;
+        width: 800px;
+        background-color: rgb(179, 179, 179);
+        height: 500px;        
+        overflow: hidden;
+        overflow-x: scroll;    
+        white-space:nowrap;
+        box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.6);
+        border: solid 0.3px #000000;
+    }
+
+    .block1 {
+        display: table-row;
+
+    }
+    .bach {
+        margin-top: 1000px;
+        display: table;
+    
+    }
+    
+}
+
