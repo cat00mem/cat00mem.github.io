@@ -1,0 +1,104 @@
+<!doctypehtml>
+    <html>
+
+    <head>
+        <title>Программирование - новости</title> <!-- название сайта. -->
+        <meta charset="utf-8"> <!-- utf код. (для решения проблем с русским языком) -->
+        <link rel="shortcut icon" href="https://i.imgur.com/NgILk2C.png" type="image/png"> <!-- иконка сайта. -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="media-queries.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+    </head>
+
+    <body>
+        <div class="cap">
+            <p class="butt tyu" onmouseover="Displayinfo();" onmouseout="DisplayinfoNone();">?</p>
+            <div id="righty"></div>
+            <img class="butt2 tyu2" onclick="menu();" src="menuBat.png">
+            <p class="butt">КОНТАКТЫ</p>
+            <p class="butt">ЗАПИСАТЬСЯ</p>
+            <p class="butt" onclick="news();">НОВОСТИ</p>
+            <p class="butt" onclick="diraction();">НАПРАВЛЕНИЯ</p>
+            <p class="butt">О ЦЕНТРЕ</p>
+            <div id="buttLogo" style="opacity: 1;" onclick="site();"></div>
+        </div>
+        <div id="BackMenu"></div>
+        <div id="menu">
+            <img class="butt2 tyu2" onclick="menu();" src="menuBat.png">
+            <p class="butt3">КОНТАКТЫ</p>
+            <p class="butt3">ЗАПИСАТЬСЯ</p>
+            <p class="butt3" onclick="news();">НОВОСТИ</p>
+            <p class="butt3" onclick="diraction();">НАПРАВЛЕНИЯ</p>
+            <p class="butt3">О ЦЕНТРЕ</p>
+        </div>
+        <div id="textNews">
+            <p>новости</p>
+        </div>
+        <div id="news">
+            <div class="blocknews">Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и
+                модернизации системы обучения кадров, соответствует насущным потребностям.
+                Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции
+                позволяет оценить значение модели развития.</div>
+        </div>
+
+
+        <script>
+
+            function diraction() {
+                var meni_1 = 'diraction.html';
+                location.href = meni_1;
+            }
+            function site() {
+                var meni_1 = 'index.html';
+                location.href = meni_1;
+            }
+            function news() {
+                var meni_1 = 'news.html';
+                location.href = meni_1;
+            }
+
+
+            var OnMenu = false;
+
+            function menu() {
+                if (OnMenu == false) {
+                    document.getElementById("BackMenu").style.display = 'block';
+                    document.getElementById("menu").style.display = 'block';
+                    OnMenu = true;
+                } else {
+                    document.getElementById("BackMenu").style.display = 'none';
+                    document.getElementById("menu").style.display = 'none';
+                    OnMenu = false;
+                }
+            }
+
+            var texts = ['Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.',
+                '2',
+                '3',
+                '4',
+                '5',
+                '6',
+                '7',
+                '8',
+                '9',
+                '10'];
+
+            for (var i = 0; i < 100; i++) {
+                var newsDiv = document.getElementById('news');
+                var news = document.createElement('div');
+
+                news.className = "blocknews";
+                news.innerHTML = 'Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.';
+                newsDiv.appendChild(news);
+            }
+        </script>
+    </body>
+
+    </html>

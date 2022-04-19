@@ -407,3 +407,34 @@ TD, TH, TR {
 .droid {
     display: none;
 }
+
+#news {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.blocknews {
+
+    padding: 20px;
+    margin: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: #bdbdbd;
+    font-family: 'Inter';
+    
+}
+
+#textNews {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 90px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
