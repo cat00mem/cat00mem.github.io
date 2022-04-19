@@ -209,6 +209,8 @@ font-style: normal;
 transition: 0.3s;
 background-image: url(logo2.png);
 background-size: contain;
+cursor: pointer;
+opacity: 0;
 }
 
 .butt:hover {
@@ -345,6 +347,7 @@ transition: 1s;
     width: 400px;
     height: 400px;
     background-color: #fdfdfd;
+    cursor: pointer;
 }
 
 .block2 {
@@ -391,4 +394,16 @@ text-align: center;
 #heh {
     padding: 40px;
     background-color: #2F97F7;
+}
+
+TD, TH, TR {
+    padding: 5px; /* Поля вокруг содержимого таблицы */
+    border: 2px solid black; /* Параметры рамки */
+    font-family: 'Inter';
+}
+
+
+
+.droid {
+    display: none;
 }

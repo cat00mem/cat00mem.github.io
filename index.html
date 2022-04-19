@@ -21,9 +21,9 @@
             <p class="butt">КОНТАКТЫ</p>
             <p class="butt">ЗАПИСАТЬСЯ</p>
             <p class="butt">НОВОСТИ</p>
-            <p class="butt">НАПРАВЛЕНИЯ</p>
+            <p class="butt" onclick="diraction();">НАПРАВЛЕНИЯ</p>
             <p class="butt">О ЦЕНТРЕ</p>
-            <div id="buttLogo"></div>
+            <div id="buttLogo" onclick="site();"></div>
         </div>
         <div id="BackMenu"></div>
         <div id="menu">
@@ -31,7 +31,7 @@
             <p class="butt3">КОНТАКТЫ</p>
             <p class="butt3">ЗАПИСАТЬСЯ</p>
             <p class="butt3">НОВОСТИ</p>
-            <p class="butt3">НАПРАВЛЕНИЯ</p>
+            <p class="butt3" onclick="diraction();">НАПРАВЛЕНИЯ</p>
             <p class="butt3">О ЦЕНТРЕ</p>
         </div>
 
@@ -54,7 +54,7 @@
         <img id="Creator" src="creator.png"></img>
         <img src="Vector.png" id="vector"></img>
         <div class="bach"> 
-            <div class="block1">
+            <div class="block1" onclick="map();">
                 <div style="padding: 40px; background-color: #2F97F7;">
                 <div class="block2">
                 </div>
@@ -63,7 +63,7 @@
                 </div>
                 </div>
             </div>
-            <div class="block1">
+            <div class="block1" onclick="vk();">
                 <div style="padding: 40px;background-color: #2F97F7;">
                 <div class="block21">
                 </div>
@@ -97,6 +97,27 @@
                 var elem1 = document.getElementById("buttLogo");
                 elem1.style.opacity = '0';
             }
+        }
+
+        function diraction() {
+            var meni_1 = 'diraction.html';
+            location.href = meni_1;
+        }
+        function site() {
+            var meni_1 = 'index.html';
+            location.href = meni_1;
+        }
+
+
+
+        function map() {
+            var meni_1 = 'https://yandex.ru/maps/25/pskov/house/kuznetskaya_ulitsa_13/ZkEYdQRoQUwFQFttfXRxd3pjYw==/?ll=28.339139%2C57.806528&z=19.6';
+            location.href = meni_1;
+        }
+
+        function vk() {
+            var meni_1 = 'https://vk.com/itcubepskov';
+            location.href = meni_1;
         }
 
 
