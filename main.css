@@ -1,4 +1,9 @@
 
+   @font-face {
+    font-family: Inter; /* Имя шрифта */
+    src: url(Inter-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
 #logoBackground {
     position: absolute;
 width: 315px;
